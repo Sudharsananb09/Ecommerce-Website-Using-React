@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,500;1,600;1,700&display=swap');
+
+.home{
+    font-family: Roboto, sans-serif;   
+
+    .highlight{
+        background-color: rgb(112, 188, 188);
+
+        .best_seller{
+            p{
+                color: rgb(65, 65, 65);
+            }
+
+            .best_seller-title{
+                padding: 10px 0;
+                font-weight: 700;
+            }
+
+            button{
+                background-color: rgb(27, 51, 98);
+                border-radius: 6px;
+                padding: 5px 10px;
+                margin-top: 10px;  
+                border: none;
+                outline: none;  
+                &:hover{
+                    scale: 1.1;
+                }                                       
+
+                .shop-link{
+                    text-decoration: none;
+                    color: rgb(201, 210, 218);
+                    font-size: 16px;
+                    font-weight: 400;                 
+                }
+                
+            }
+        }
+    }
+}
