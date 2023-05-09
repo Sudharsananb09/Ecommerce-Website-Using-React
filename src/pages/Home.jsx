@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container, Row, Col, Button } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import hero_icon from '../assets/images/hero-img.png'
 import { NavLink } from 'react-router-dom'
+import Services from '../components/services/Services'
 
 // Imports for Styling
 import '../styles/Home.scss'
@@ -38,6 +39,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      <Services />
     </div>
   )
 }
